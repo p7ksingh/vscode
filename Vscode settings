@@ -1,0 +1,155 @@
+{
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+  "[oraclesql]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on"
+    },
+    "editor.suggest.showSnippets": true
+  },
+  "code-runner.runInTerminal": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 18,
+  "editor.fontWeight": "normal",
+  "editor.lineNumbers": "relative",
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "gitlens.mode.active": "zen",
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["d", "d"],
+      "commands": ["editor.action.deleteLines"],
+      "when": "textInputFocus && !editorReadonly"
+    },
+    {
+      "before": ["y"],
+      "commands": ["copy kr lo Bhai"],
+      "when": "textInputFocus"
+    },
+    {
+      "before": ["y", "y"],
+      "commands": ["editor.action.clipboardCopyAction"],
+      "when": "textInputFocus"
+    },
+    {
+      "before": ["p"],
+      "commands": ["editor.action.clipboardPasteAction"],
+      "when": "textInputFocus && !editorReadonly"
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["y"],
+      "commands": ["editor.action.clipboardCopyAction"],
+      "when": "textInputFocus"
+    },
+    {
+      "before": ["y", "y"],
+      "commands": ["editor.action.clipboardCopyAction"],
+      "when": "textInputFocus"
+    },
+    {
+      "before": ["x"],
+      "commands": ["deleteRight"],
+      "when": "textInputFocus"
+    }
+  ],
+  "java.project.referencedLibraries": [],
+  "livePreview.defaultPreviewPath": "/Users/developer/Downloads/index.html",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "oracledevtools.bookmarkFileFolder": "/Users/developer/Oracle/oracle.oracledevtools",
+  "oracledevtools.connectionConfiguration.configFilesFolder": "/Users/developer/Oracle/network/admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "/Users/developer/Oracle/network/admin",
+  "oracledevtools.download.otherFolder": "/Users/developer/downloads",
+  "redhat.telemetry.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.US",
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+  "vim.easymotion": true,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "after": ["<Esc>"],
+      "before": ["j", "j"]
+    }
+  ],
+  "vim.leader": "<space>",
+
+  "vim.startInInsertMode": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.insert": "#BF616A",
+  "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "vim.statusBarColors.visual": "#B48EAD",
+  "vim.statusBarColors.visualblock": "#A3BE8C",
+  "vim.statusBarColors.visualline": "#B48EAD",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#BF616A",
+    "statusBar.debuggingBackground": "#BF616A",
+    "statusBar.debuggingForeground": "#434C5E",
+    "statusBar.foreground": "#434C5E",
+    "statusBar.noFolderBackground": "#BF616A"
+  },
+  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.editorAssociations": {
+    "*.ico": "imagePreview.previewEditor"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "zenMode.centerLayout": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": true,
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+AwesomeRegular'",
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "code-runner.showExecutionMessage": false,
+  "window.zoomLevel": 1,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false
+}
+
