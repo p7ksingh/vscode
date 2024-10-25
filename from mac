@@ -1,0 +1,242 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilitySupport": "off",
+    "boot-java.rewrite.reconcile": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true
+    },
+    "redhat.telemetry.enabled": true,
+    "git.enableSmartCommit": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.mac": "/Users/developer/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Vim Dark Hard",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+ 
+    "workbench.tree.indent": 20,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.includeEmptyLines": false,
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "spring-boot.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "rsp-ui.rsp.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+        }
+    ],
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "JavaSE-1.8": {
+            "overrideName": true,
+            "env": {
+                "ZDOTDIR": "~/.zsh_jdkauto",
+                "PATH": "/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8/bin:/opt/homebrew/bin:/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+            },
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "JavaSE-11": {
+            "overrideName": true,
+            "env": {
+                "ZDOTDIR": "~/.zsh_jdkauto",
+                "PATH": "/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11/bin:/opt/homebrew/bin:/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+            },
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "JavaSE-17": {
+            "overrideName": true,
+            "env": {
+                "ZDOTDIR": "~/.zsh_jdkauto",
+                "PATH": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin:/opt/homebrew/bin:/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+            },
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "JavaSE-20": {
+            "overrideName": true,
+            "env": {
+                "ZDOTDIR": "~/.zsh_jdkauto",
+                "PATH": "/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/bin:/opt/homebrew/bin:/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:${env:PATH}",
+                "JAVA_HOME": "/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"
+            },
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "java.import.gradle.home": "/Users/developer/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 14,
+    "hediet.vscode-drawio.resizeImages": null,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "vim.startInInsertMode": true,
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+        }
+      ],
+      "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<leader>", "d"],
+          "after": ["d", "d"]
+        },
+        {
+          "before": ["<C-n>"],
+          "commands": [":nohl"]
+        },
+        {
+          "before": ["K"],
+          "commands": ["lineBreakInsert"],
+          "silent": true
+        }
+      ],
+      "vim.leader": "<space>",
+      "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+      },
+      "vim.statusBarColorControl": true,
+      "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+      "vim.statusBarColors.insert": "#BF616A",
+      "vim.statusBarColors.visual": "#B48EAD",
+      "vim.statusBarColors.visualline": "#B48EAD",
+      "vim.statusBarColors.visualblock": "#A3BE8C",
+      "vim.statusBarColors.replace": "#D08770",
+      "vim.statusBarColors.commandlineinprogress": "#007ACC",
+      "vim.statusBarColors.searchinprogressmode": "#007ACC",
+      "vim.statusBarColors.easymotionmode": "#007ACC",
+      "vim.statusBarColors.easymotioninputmode": "#007ACC",
+      "vim.statusBarColors.surroundinputmode": "#007ACC",
+      "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "[Default Dark+][Visual Studio Dark]": {
+            "tab.activeBorder": "#0F0"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9",
+        "statusBar.background": "#BF616A",
+        "statusBar.noFolderBackground": "#BF616A",
+        "statusBar.debuggingBackground": "#BF616A",
+        "statusBar.foreground": "#434C5E",
+        "statusBar.debuggingForeground": "#434C5E"
+    },
+      "vim.autoSwitchInputMethod.enable": true,
+      "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.US",
+      "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+      "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+      "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+      },
+      "editor.parameterHints.enabled": false,
+      "vim.foldfix": true,
+      "zenMode.hideStatusBar": false,
+      "zenMode.hideLineNumbers": false,
+      "zenMode.restore": true,
+      "zenMode.centerLayout": true,
+      "gitlens.mode.active": "zen",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never"
+
+}
